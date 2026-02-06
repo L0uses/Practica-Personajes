@@ -1,0 +1,130 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+font-family: "Inter", sans-serif;
+
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+header img{
+    height: 95%;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(198, 91, 42);
+    border-bottom: 7px solid rgb(171, 73, 17);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+nav a{
+    color: rgb(224, 224, 220);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+
+font-family: "Rubik", sans-serif;
+
+}
+nav a:hover{
+    background-color: rgb(245, 117, 67);
+    transform: scale(1.2);
+    
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: rgb(234, 136, 62);
+    margin: 0 auto;
+
+    background-image: url(../Imgs/Sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personaje{
+    width: 1300px;
+    height: 400px;
+    margin-left: 33px;
+    margin-top: 80px;
+    
+    display: inline-block;
+}
+
+.foto{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+   float: left;
+   margin-left: 33px;
+   text-align: center;
+
+   border-bottom: 5px solid rgb(94, 157, 228);
+}
+
+.foto img{
+height: 100%; /*Es un comentario en CSS*/
+
+}
+
+.info{
+    width: 800px;
+    height: 400px;
+    background-color: aliceblue;
+   float: left;
+   margin-left: 33px;
+   padding: 30px;
+   color: rgb(43, 41, 43);
+   
+   border-bottom: 5px solid rgb(94, 157, 228);
+}
+
+h3{
+    font-family: "Rubik", sans-serif;
+}
+
+.info h3{
+    font-size: 1.8rem;
+margin: 20px ; 0px
+
+}
+
+.text-link{
+    
+}
+
+
+footer{
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(129, 33, 33);
+    margin: 0 auto;
+    color: rgb(211, 203, 203);
+    text-align: center;
+
+}
