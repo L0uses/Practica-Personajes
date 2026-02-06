@@ -104,6 +104,15 @@ height: 100%; /*Es un comentario en CSS*/
    border-bottom: 5px solid rgb(94, 157, 228);
 }
 
+.info a{
+
+color: rgb(108, 46, 224);
+text-decoration: none;
+font-style: italic;
+font-family: "Rubik", sans-serif;
+
+}
+
 h3{
     font-family: "Rubik", sans-serif;
 }
@@ -118,13 +127,23 @@ margin: 20px ; 0px
     
 }
 
+footer a{
+
+ display: block;
+padding-top: 10px;
+color: bisque;
+text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: dashed;
+}
 
 footer{
     width: 1366px;
-    height: 200px;
+    height: 220px;
     background-color: rgb(129, 33, 33);
     margin: 0 auto;
     color: rgb(211, 203, 203);
     text-align: center;
-
 }
